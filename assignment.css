@@ -55,15 +55,16 @@
 }
 
 /* main section er kaj */
-main{
-    background: rgb(0,171,227);
-    background: linear-gradient(90deg, rgba(0,171,227,1) 27%, rgba(73,212,231,1) 53%, rgba(0,134,255,1) 100%);
+main {
+    background: rgb(0, 171, 227);
+    background: linear-gradient(90deg, rgba(0, 171, 227, 1) 27%, rgba(73, 212, 231, 1) 53%, rgba(0, 134, 255, 1) 100%);
 }
+
 /* second container image and details */
 .second_container {
     gap: 90px;
     display: flex;
- }
+}
 
 .image {
     margin-top: 130px;
@@ -110,9 +111,8 @@ main{
     margin-top: 130px;
     margin-bottom: 50px;
 }
-.skill {
-    
-}
+
+.skill {}
 
 .skill_text {
     display: flex;
@@ -148,11 +148,12 @@ main{
 
 
 /* image_add */
-.image_add{
+.image_add {
     position: relative;
 
 }
-.background_overlay{
+
+.background_overlay {
     position: absolute;
     top: 0;
     width: 100%;
@@ -162,9 +163,69 @@ main{
     left: 0;
     background-image: url(new-year-new-me-main/images/gradient1.png);
 }
-.first_image_add{
-    margin:130px 230px;
+
+.first_image_add {
+    margin: 130px 230px;
     border-radius: 10px;
+    padding-bottom: 130px;
 }
 
 /* footer section */
+footer {
+    background-color: rgb(7, 197, 255);
+}
+
+.last_container {
+    display: flex;
+    gap: 330px;
+    margin: 130px 230px;
+    padding: 130px;
+
+}
+
+.left_side {
+    text-align: left;
+}
+
+.future {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px margin-bottom: 20px;
+}
+
+.future_info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.icon_image {
+    gap: 17px;
+    margin-top: 10px;
+}
+
+.right_side {}
+
+.sub {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.label {
+    width: 1000px;
+    height: 64px;
+    left: 1046px;
+    top: 2841.96px;
+    margin-bottom: 10px;
+}
+.btn_sub{
+
+    width: 170.11px;
+    height: 64px;
+    left: 1046px;
+    top: 2921.96px;
+    box-shadow: 2px 2px 2px red;
+    
+}
