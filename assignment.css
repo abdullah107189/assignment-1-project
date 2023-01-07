@@ -149,10 +149,22 @@ main{
 
 /* image_add */
 .image_add{
+    position: relative;
 
+}
+.background_overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0px 230px;
+    background-repeat: no-repeat;
+    left: 0;
+    background-image: url(new-year-new-me-main/images/gradient1.png);
 }
 .first_image_add{
     margin:130px 230px;
-    
     border-radius: 10px;
-}s
+}
+
+/* footer section */
