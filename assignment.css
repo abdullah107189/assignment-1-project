@@ -4,6 +4,66 @@
 }
 
 /* header section */
+
+/* header start  */
+.header {
+    display: flex;
+    padding: 50px 200px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo {
+    font-size: 40px;
+    text-shadow: 5px 5px 10px white;
+}
+h1:hover{
+    text-shadow: 5px 5px 10px rgb(255, 0, 0);
+}
+
+.l_name {
+    color: white;
+}
+
+.logo_btn {
+    display: flex;
+    gap: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0;
+}
+
+.logo_btn ul li {
+    margin-left: 50pz;
+    display: inline;
+    align-items: center;
+    padding-right: 80px;
+    font-size: 30px;
+  
+}
+.logo_btn ul li a{
+    display: inline;
+    text-decoration: none;
+    color: white;
+}
+.logo_btn ul li:hover a{
+    color: aqua;
+}
+.logo_btn_me{
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #00abe3;
+    border-radius: 4px;
+    border: none;}
+.logo_btn_me:hover{
+    box-shadow: 3px 3px 6px red;
+}
+
+
+/* header end  */
+
+
 /* header_image */
 .container {
     background-image: url(new-year-new-me-main/images/banner/banner3.png);
@@ -24,7 +84,7 @@
     width: 525px;
     height: 228px;
     padding-left: 845px;
-    padding-top: 216px;
+    padding-top: 50px;
 }
 
 .second_text {
@@ -220,12 +280,13 @@ footer {
     top: 2841.96px;
     margin-bottom: 10px;
 }
-.btn_sub{
+
+.btn_sub {
 
     width: 170.11px;
     height: 64px;
     left: 1046px;
     top: 2921.96px;
     box-shadow: 2px 2px 2px red;
-    
+
 }
