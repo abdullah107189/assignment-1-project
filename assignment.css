@@ -18,7 +18,8 @@
     font-size: 40px;
     text-shadow: 5px 5px 10px white;
 }
-h1:hover{
+
+h1:hover {
     text-shadow: 5px 5px 10px rgb(255, 0, 0);
 }
 
@@ -40,24 +41,32 @@ h1:hover{
     align-items: center;
     padding-right: 80px;
     font-size: 30px;
-  
+
 }
-.logo_btn ul li a{
+
+.logo_btn ul li a {
     display: inline;
     text-decoration: none;
     color: white;
 }
-.logo_btn ul li:hover a{
+
+.logo_btn ul li:hover a {
     color: aqua;
 }
-.logo_btn_me{
+
+.logo_btn_me {
     padding: 15px 20px;
-    font-size: 18px;
     color: #00abe3;
+    background-color: black;
+    font-size: 20px;
+    font-weight: 600;
     border-radius: 4px;
-    border: none;}
-.logo_btn_me:hover{
+    border: none;
+}
+
+.logo_btn_me:hover {
     box-shadow: 3px 3px 6px red;
+    color: white;
 }
 
 
@@ -105,8 +114,18 @@ h1:hover{
     margin-left: 1215px;
     margin-top: 50px;
     border-radius: 5px;
+    font-weight: 600;
+    padding: 15px 20px;
+    background-color: #151414;
     border: none;
-    box-shadow: 2px 2px 10px red;
+    font-size: 20px ;
+    color: #00abe3;
+    font-size: 10px;
+    font-weight: 600;
+  
+}
+.contact:hover{
+    box-shadow: 2px 2px 5px red;
 }
 
 .contact_color {
@@ -210,7 +229,6 @@ main {
 /* image_add */
 .image_add {
     position: relative;
-
 }
 
 .background_overlay {
@@ -231,13 +249,16 @@ main {
 }
 
 /* footer section */
+
 footer {
-    background-color: rgb(7, 197, 255);
+    background-color: #151414;
+    padding: 100px 0;
 }
 
 .last_container {
     display: flex;
     gap: 330px;
+    color: #fff;
     margin: 130px 230px;
     padding: 130px;
 
@@ -265,28 +286,29 @@ footer {
     margin-top: 10px;
 }
 
-.right_side {}
-
-.sub {
+.subscribe-box h2 {
     font-weight: 600;
-    font-size: 25px;
-    line-height: 29px;
+    margin-bottom: 20px;
 }
 
-.label {
-    width: 1000px;
-    height: 64px;
-    left: 1046px;
-    top: 2841.96px;
-    margin-bottom: 10px;
+.subscribe-box .email {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 20px;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 7px;
+    margin-bottom: 20px;
 }
 
-.btn_sub {
-
-    width: 170.11px;
-    height: 64px;
-    left: 1046px;
-    top: 2921.96px;
-    box-shadow: 2px 2px 2px red;
-
+.subscribe-box .subscribe-btn {
+    border: none;
+    background-color: #fd6e0a;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
 }
