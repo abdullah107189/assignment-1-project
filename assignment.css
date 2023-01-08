@@ -243,7 +243,7 @@ main {
 }
 
 .first_image_add {
-    margin: 130px 230px;
+    margin: 0 230px;
     border-radius: 10px;
     padding-bottom: 130px;
 }
@@ -252,14 +252,15 @@ main {
 
 footer {
     background-color: #151414;
-    padding: 100px 0;
+    
 }
 
 .last_container {
     display: flex;
     gap: 330px;
+    padding: 130px 0px;
     color: #fff;
-    margin: 130px 230px;
+    margin: 0 230px;
     padding: 130px;
 
 }
@@ -271,7 +272,8 @@ footer {
 .future {
     font-weight: 700;
     font-size: 45px;
-    line-height: 53px margin-bottom: 20px;
+    line-height: 53px
+     margin-bottom: 20px;
 }
 
 .future_info {
